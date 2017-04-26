@@ -1,0 +1,52 @@
+html {
+  font-size: 15px; }
+  html body {
+    padding: 0;
+    margin: 1em 0 0 0;
+    font-family: monospace;
+    text-align: center; }
+    html body h2, html body .container {
+      font-size: 0.9rem; }
+    html body h1, html body h2 {
+      padding: 0;
+      margin: 0; }
+    html body h1 {
+      font-size: 1.4em; }
+    html body h2 {
+      font-size: 1.5em; }
+    html body table {
+      vertical-align: top;
+      display: inline-block;
+      text-align: center;
+      border-spacing: 0;
+      margin: 10px; }
+      html body table .month {
+        font-size: 1.2em;
+        background: #272530;
+        color: #fff;
+        border: none; }
+      html body table .day {
+        background: #ffebcd; }
+    html body th, html body td {
+      padding: 5px 6px; }
+    html body .current-day {
+      background: #FF94D4;
+      font-weight: bold; }
+    html body .current-month {
+      background: #EDFFDD; }
+    html body .weekend {
+      background: #87E8CC; }
+    html body .main-calendar {
+      padding-bottom: 7px;
+      font-size: 1.45em;
+      background: #e9e9e9; }
+      html body .main-calendar table {
+        margin-bottom: 3px; }
+    @media (max-width: 320px) {
+      html body .main-calendar {
+        font-size: 1.35em; }
+        html body .main-calendar table {
+          margin-left: 0;
+          margin-right: 0; } }
+
+/*# sourceMappingURL=style.css.map */

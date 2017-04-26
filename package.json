@@ -1,0 +1,21 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --progress --watch",
+    "lite": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015-native-modules": "^6.6.0",
+    "lite-server": "^2.2.2",
+    "webpack": "^2.1.0-beta.15"
+  }
+}
